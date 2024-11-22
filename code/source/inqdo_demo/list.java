@@ -41,7 +41,7 @@ public final class list
 		String[] stringList = null;
 		if (pipelineCursor.first("stringList")) {
 		    stringList = (String[]) pipelineCursor.getValue();
-		}
+		} 
 		
 		// Check if stringList is null
 		if (stringList == null) {
